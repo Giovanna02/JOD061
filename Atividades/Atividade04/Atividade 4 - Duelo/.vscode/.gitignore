@@ -5,8 +5,8 @@
 Library/
 Temp/
 Obj/
-Build
-Builds
+Build/
+Builds/
 Logs/
 MemoryCaptures/
 bin/
@@ -23,7 +23,7 @@ obj/
 Assets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-.vs/
+*.vs/
 
 # Gradle cache directory
 .gradle/
@@ -32,7 +32,7 @@ Assets/Plugins/Editor/JetBrains*
 ExportedObj/
 .consulo/
 .csproj
-*.unityproj
+.unityproj/
 .sln
 *.suo
 *.tmp
@@ -56,7 +56,7 @@ sysinfo.txt
 
 # Builds
 .apk
-*.unitypackage
+.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
